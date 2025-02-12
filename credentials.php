@@ -1,13 +1,13 @@
 <?php
-// HENZ TECH
+// KAISEN 
 $filename = "login.txt";
 
-// HENZ TECH
+// KAISEN 
 if (!file_exists($filename)) {
     die("No credentials found.");
 }
 
-// HENZ TECH
+// KAISEN 
 $lines = file($filename, FILE_IGNORE_NEW_LINES);
 ?>
 
